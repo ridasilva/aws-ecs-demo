@@ -1,3 +1,4 @@
 env/
 aws-secret-envs.txt
 *.docx
+*.tmp
