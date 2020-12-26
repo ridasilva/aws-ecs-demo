@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "257492816994.dkr.ecr.us-east-1.amazonaws.com/aws-ecs-demo-ecr-2",
+      "image": "257492816994.dkr.ecr.us-east-1.amazonaws.com/aws-ecs-demo-ecr",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "aws-ecs-demo-ecr-2"
+      "name": "aws-ecs-demo-ecr"
     }
   ],
   "placementConstraints": [],
@@ -55,8 +55,8 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:257492816994:task-definition/aws-ecs-demo-task-definition-2:1",
-  "family": "aws-ecs-demo-task-definition-2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:257492816994:task-definition/aws-ecs-demo-task-definition:1",
+  "family": "aws-ecs-demo-task-definition",
   "requiresAttributes": [
     {
       "targetId": null,
