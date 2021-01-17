@@ -6,10 +6,16 @@ from flask_migrate import Migrate
 
 app = Flask(__name__)
 
+# POSTGRES_USER = postgres
+# POSTGRES_PW = you defined this
+# POSTGRES_URL = AWS RDS endpoint
+# POSTGRES_DB = name of database created in pgadmin
+
 app.config['SQLALCHEMY_DATABASE_URI'] = (
     f'postgresql+psycopg2://{os.getenv("POSTGRES_USER")}:' +
     f'{os.getenv("POSTGRES_PW")}@{os.getenv("POSTGRES_URL")}/{os.getenv("POSTGRES_DB")}'
 )
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
