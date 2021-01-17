@@ -2,7 +2,6 @@ FROM python:3.8-slim
 
 # to install python package psycopg2 (for postgres)
 RUN apt-get update
-RUN apt-get install -y curl
 RUN apt-get install -y postgresql libpq-dev postgresql-client postgresql-client-common gcc
 
 # add user (change to whatever you want)
