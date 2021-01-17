@@ -49,5 +49,8 @@ RUN pip install --no-cache-dir -r ./requirements.txt --user
 COPY . /app
 WORKDIR /app
 
+ENV FLASK_ENV=development
+ENV WERKZEUG_DEBUG_PIN=off
+
 # start web server
 CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app", "--workers=5"]
