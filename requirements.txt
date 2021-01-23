@@ -3,3 +3,4 @@ gunicorn
 flask-sqlalchemy
 flask-migrate
 psycopg2
+boto3
