@@ -10,7 +10,7 @@ import json
 
 def get_secret():
 
-    secret_name = "aws-ecs-demo-db"
+    secret_name = "aws-ecs-demo-db-cred"
     region_name = "us-east-1"
 
     # Create a Secrets Manager client
