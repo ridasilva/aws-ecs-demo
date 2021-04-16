@@ -1,5 +1,4 @@
 # aws-ecs-demo
-This repository is protected under the `BSD 3-Clause License` which can be found in `LICENSE`.
 
 Demo repository for pushing boiler-plate Flask app to AWS ECS.
 
@@ -32,3 +31,6 @@ AWS Secrets Manager - restrict access by IAM role
 ```
 Additional notes:
 * Access aws:userid with `aws-cli` and `aws iam get-user --user-name {aws-iam-user-name}`
+
+## License
+[BSD 3-Clause License](https://github.com/alexanderdamiani/aws-ecs-demo/blob/main/LICENSE)
