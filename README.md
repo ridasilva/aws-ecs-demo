@@ -1,4 +1,6 @@
 # aws-ecs-demo
+This repository is protected under the `BSD 3-Clause License` which can be found in `LICENSE.md`.
+
 Demo repository for pushing boiler-plate Flask app to AWS ECS.
 
 `docker-compose.yml` is only for testing the application on your local machine and not in used in the AWS deployment.
