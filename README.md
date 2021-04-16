@@ -1,5 +1,5 @@
 # aws-ecs-demo
-This repository is protected under the `BSD 3-Clause License` which can be found in `LICENSE.md`.
+This repository is protected under the `BSD 3-Clause License` which can be found in `LICENSE`.
 
 Demo repository for pushing boiler-plate Flask app to AWS ECS.
 
